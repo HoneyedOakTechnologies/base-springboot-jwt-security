@@ -1,0 +1,10 @@
+name: "base-security-backend"
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=base-springboot-jwt-security'
+      - 'POSTGRES_PASSWORD=gRxs4%S%Z2hyJ!5q'
+      - 'POSTGRES_USER=admin'
+    ports:
+      - '5432:5432'
